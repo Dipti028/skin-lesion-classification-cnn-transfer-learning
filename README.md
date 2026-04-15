@@ -26,7 +26,8 @@ The solution combines:
 
 ## 📊 Dataset  
 
-- **Source:** ISIC (International Skin Imaging Collaboration)  
+- **Source:** ISIC (International Skin Imaging Collaboration)
+- **Link:** https://www.kaggle.com/datasets/nodoubttome/skin-cancer9-classesisic  
 - **Images:** 2239 training + 118 test  
 - **Classes:** 9 skin conditions  
 
