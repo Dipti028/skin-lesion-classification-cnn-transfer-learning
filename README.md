@@ -47,13 +47,13 @@ The solution combines:
 
 | Phase | Model                          | Val Acc | Test Acc | Key Insight |
 |------|--------------------------------|--------|---------|------------|
-| 1 | Baseline CNN | 51% | — | Overfitting (gap 33%) |
-| 2 | CNN + Augmentation | 55% | — | Underfitting |
-| 3 | CNN + Balanced Data | 73% | 46% | Better generalization |
+| 1 | Baseline CNN | 57% | — | Severe Overfitting (gap 29%) |
+| 2 | CNN + Augmentation | 54% | — | Underfitting |
+| 3 | CNN + Balanced Data | 71% | 45% | Better generalization |
 | 4 | EfficientNetB0 (Frozen) | 62% | — | Underfitting |
-| 5 | EfficientNetB0 (Fine-tuned) | 77% | — | Slight overfitting |
+| 5 | EfficientNetB0 (Fine-tuned) | 74% | — | Slight overfitting |
 | 6 | EfficientNetB0 + Callbacks | 78% | — | Stabilized training |
-| 7 | EfficientNetB0 + Class Weights | **81%** | **54%** | Best model ✅ |
+| 7 | EfficientNetB0 + Class Weights | **79%** | **51%** | Best Trade-Off ✅ |
 
 ---
 
