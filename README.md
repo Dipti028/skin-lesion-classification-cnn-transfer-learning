@@ -1,4 +1,4 @@
-# 🚀 End-to-End Multiclass Skin Lesion Classification using Custom CNN + Transfer Learning (EfficientNetB0)
+# Skin Lesion Classification using Custom CNN & Transfer Learning (EfficientNetB0)
 
 ---
 
